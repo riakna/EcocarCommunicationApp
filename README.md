@@ -2,7 +2,7 @@
 
 ## PETeleCo
 
-Aplicativo experimental para possíbiliar a comunicação entre piloto e equipe de apoio, uma vez que a comunicação via rádio se mostrou suscetível a interferência.
+Aplicativo experimental para possibilitar a comunicação entre piloto e equipe de apoio, uma vez que a comunicação via rádio se mostrou suscetível a interferência.
 
 O app apresentará a possibilidade de enviar mensagens curtas e pré definidas, um contador de voltas setado remotamente pelo membro da equipe de apoio e uma estimativa do tempo de prova.
 
