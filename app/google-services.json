@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "825239918431",
+    "firebase_url": "https://ecocarcommapp.firebaseio.com",
+    "project_id": "ecocarcommapp",
+    "storage_bucket": "ecocarcommapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:825239918431:android:bcfb9b3f33353187",
+        "android_client_info": {
+          "package_name": "br.com.unicamp.ecocar.ecocarcommapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "825239918431-f6vrondc7lvo5s371frtp33i17ibvqc3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.unicamp.ecocar.ecocarcommapp",
+            "certificate_hash": "527def83c573baed78c2ee036860fbd67a1911cd"
+          }
+        },
+        {
+          "client_id": "825239918431-f4fdhqg7m0qi2tngkm2hmr10pk9oktic.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.unicamp.ecocar.ecocarcommapp",
+            "certificate_hash": "6a9dd97e67f5eb7978a0ba7aa4e251fa90948660"
+          }
+        },
+        {
+          "client_id": "825239918431-ir6cvg1hns7bd34n3ffipchr38mrsv18.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiKw6rRSlbfAAbvtF0yTU04AGogV4udRI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "825239918431-ir6cvg1hns7bd34n3ffipchr38mrsv18.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
