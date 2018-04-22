@@ -7,11 +7,22 @@
     android:padding="10dp"
     tools:context="br.com.unicamp.ecocar.ecocarcommapp.ChatMessagesActivity">
 
+    <Button
+        android:id="@+id/exMsgButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Exemplo de mensagem" />
+
     <android.support.v7.widget.RecyclerView
         android:id="@+id/messagesRecyclerView"
         android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_marginBottom="60dp"
-        android:layout_height="match_parent"/>
+        android:layout_marginTop="60dp">
+
+    </android.support.v7.widget.RecyclerView>
 
     <LinearLayout
         android:layout_width="match_parent"

@@ -7,6 +7,7 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.Toast;
@@ -33,6 +34,7 @@ public class ChatMessagesActivity extends AppCompatActivity {
     private LinearLayoutManager mLayoutManager;
     private EditText mMessageEditText;
     private ImageButton mSendImageButton;
+    private Button mExampleMsgButton;
     private DatabaseReference mMessagesDBRef;
     private DatabaseReference mUsersRef;
     private List<ChatMessage> mMessagesList = new ArrayList<>();
@@ -51,6 +53,9 @@ public class ChatMessagesActivity extends AppCompatActivity {
         mChatsRecyclerView = findViewById(R.id.messagesRecyclerView);
         mMessageEditText = findViewById(R.id.messageEditText);
         mSendImageButton = findViewById(R.id.sendMessageImagebutton);
+
+        mExampleMsgButton = findViewById(R.id.exMsgButton);
+
         mChatsRecyclerView.setHasFixedSize(true);
         // use a linear layout manager
         mLayoutManager = new LinearLayoutManager(this);
@@ -82,7 +87,14 @@ public class ChatMessagesActivity extends AppCompatActivity {
         });
 
 
-
+        mExampleMsgButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String message = mExampleMsgButton.getText().toString();
+                String senderId = FirebaseAuth.getInstance().getCurrentUser().getUid();
+                sendMessageToFirebase(message, senderId, mReceiverId);
+            }
+        });
 
     }
 

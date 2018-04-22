@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://C:\Users\Nagaishi\Desktop\ProjetoApp\EcocarCommunicationApp\EcocarCommApp.iml" filepath="C:\Users\Nagaishi\Desktop\ProjetoApp\EcocarCommunicationApp\EcocarCommApp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/EcocarCommunicationApp.iml" filepath="$PROJECT_DIR$/EcocarCommunicationApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EcocarCommApp.iml" filepath="$PROJECT_DIR$/EcocarCommApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://C:\Users\Nagaishi\Desktop\ProjetoApp\EcocarCommunicationApp\app\app.iml" filepath="C:\Users\Nagaishi\Desktop\ProjetoApp\EcocarCommunicationApp\app\app.iml" />
     </modules>
   </component>
 </project>
